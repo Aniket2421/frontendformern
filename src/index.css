@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.titel {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 500px;
+}
+
+.logout-btn button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
